@@ -1,0 +1,52 @@
+.score-box {
+  margin: auto;
+  display: flex;
+  padding: 0 4rem;
+  background-color: rgba(0,0,0,0.25);
+
+  .score,
+  .clicks,
+  .minutes,
+  .seconds {
+    color: #eee;
+    padding: 1rem;
+    display: inline-block;
+    background-color: #800b1a;
+    border: 2px solid #800b1a;
+  }
+  .clicks,
+  .seconds {
+    margin-left: 0.5rem;
+  }
+  .seconds-number {
+    margin-right: 0.5rem;
+  }
+
+  .score-number,
+  .click-number,
+  .minutes-number,
+  .seconds-number {
+    display: inline-block;
+    color: #eee;
+    padding: 1rem;
+    // margin-left: -4px;
+    background-color: #042963;
+    border-top: 2px solid #800b1a;
+    border-right: 2px solid #800b1a;
+    border-bottom: 2px solid #800b1a;
+  }
+
+  .startClock {
+    display: inline-block;
+    color: #eee;
+    background-color: #042963;
+    padding: 1rem;
+    border: 0;
+  }
+  .startClock:focus { outline: none; }
+
+  .timer {
+    display: flex;
+    margin-left: auto;
+  }
+}
